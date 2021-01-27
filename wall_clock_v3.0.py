@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy import pi
 np.random.seed(10)
-total_number= 1000
-image_dir ''
+total_number= 10
+image_dir ='C:/Users/Xiawi/code_work/my_projects/Clock/Clock_project/generated_images/'
 
 hour= np.random.randint(1,13,size=total_number)
 minute = np.random.randint(0,60,size=total_number)
